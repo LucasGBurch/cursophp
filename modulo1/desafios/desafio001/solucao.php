@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="../ex004/style.css">
+  <link rel="stylesheet" href="../../exercicios/ex004/style.css">
   <title>Desafio Antecessor e Sucessor</title>
 </head>
 
@@ -17,7 +17,7 @@
     $antecessor = $numero - 1;
     $sucessor = $numero + 1;
 
-    echo "<p>O número escolhido foi <strong>$numero</strong></p>";
+    echo "<p>O número escolhido foi <strong>$numero</strong></p>"; // \n em vez de parágrafo também faz nova linha
     echo "<p>O seu antecessor é $antecessor</p>";
     echo "<p>O seu sucessor é $sucessor</p>";
     ?>
