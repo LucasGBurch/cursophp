@@ -22,7 +22,7 @@
 
     // Modo simples de formatação: number_format($reais / $cotacao, 2, ",", ".");
 
-    echo "<p>Seus " . numfmt_format_currency($padrao, $reais, "BRL") . " equivalem a <strong>" . numfmt_format_currency($padrao, $dolares, "USD") . "</strong>.</p>"
+    echo "<p>Seus " . numfmt_format_currency($padrao, $reais, "BRL") . " equivalem a <strong>" . numfmt_format_currency($padrao, $dolares, "USD") . "</strong>.</p>";
     ?>
     <button onclick="javascript:history.go(-1)">&larr; Voltar</button>
   </main>
